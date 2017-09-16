@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Display App</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <body onload="getLocation()">
+  <h2>Local Weather Display App</h2>
+  <div id="displayweather">
+    <img src = "" id="icon"><h3 id="temp"></h3>
+    <h3 id="maxmin"></h3>
+      <p id="location"></p>
+    <p id="desc"></p>
+    <p id="windspeed"></p>
+  </div>
+  <br>
+  <div id="convert">
+  <input type="radio" id="degree" onclick="todegrees()">&#8451;</input>
+  <input type="radio" id="faren" onclick="tofaren()">&#8457;</input>
+</div>
+  <footer>&copy; Coded by Ng Kok Wah</footer>
+</body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
